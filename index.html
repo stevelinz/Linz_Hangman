@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LINZ HANGMAN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container w-75">
+    <fieldset>
+        <form id="target">
+            <img src="logo.png" alt="Hangman Logo">
+            <div class="form-group">
+                <label for="userEnter">Enter a letter</label><br>
+                <input type="text" id="userEnter" name="userEnter" class="form-control">
+            </div>
+            <!-- <input type="submit" id="submit" value="Submit" > -->
+
+            <button class="btn btn-primary" id="submit">Submit</button>
+
+            <!--    <p><button onclick="clickCounter()" type="button">Try another letter?</button></p>
+               <div id="result"></div>  -->
+
+            <input type="submit" id="reStart" value="Play new game">
+
+
+           <table class="table table-striped">
+             <thead></thead>
+                <tr>
+                    <td>
+                        <p id="currentLetter"></p>
+                        <p id="wordGuessing"></p>
+                        <p id="letterAtPosition"></p>
+                        <p id="passCount"></p>
+                        <p id="count"></p>
+                    </td>
+                </tr>
+                <tbody>
+                <tr>
+
+                    <td>
+                        <p id="showWrong"></p>
+                        <p id="gameOver"></p>
+                        <p id="winner"></p>
+                        <p id="line"></p>
+                        <p id="answerFound"></p>
+                        <p id="correctWord"></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!--    <label for="letter">Letter</label>
+                <input name="letter" id="letter" type="text" class="form-control">  -->
+            <div>
+                <table class="man">
+                    <h5 id="hanging"></h5>
+                    <tbody>
+                    <tr>
+                        <td id="man1"></td>
+                        <td id="man2" align="bottom"></td>
+                        <td id="man3"></td>
+                    </tr>
+                    <tr>
+                        <td id="man4"></td>
+                        <td id="man5" align="center"></td>
+                        <td id="man6"></td>
+                    </tr>
+                    <tr>
+                        <td id="man7" align="right"></td>
+                        <td id="man8"></td>
+                        <td id="man9" align="left"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </form>
+    </fieldset>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="code.js"></script>
+
+</html>

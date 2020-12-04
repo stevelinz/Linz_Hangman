@@ -1,0 +1,88 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+fieldset {
+    background-color: white;
+    padding: 25px;
+    text-align: left;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.btn, .btn:hover {
+    background-color: darkgreen;
+}
+
+#message {
+    font-size: larger;
+}
+
+label.error {
+    /* Add a style here for your error messages */
+}
+
+img{
+    white-space-treatment: 23;
+    width: 800px;
+    height: 300px;
+    alignment: left;
+    align-content: stretch;
+}
+#line{
+    font-size: xx-large;
+    color: crimson;
+}
+
+#man2 {
+    font-size: xx-large;
+    color: crimson;
+
+}
+#man4 {
+    font-size: xx-large;
+    color: blue;
+
+}
+#man5 {
+    font-size: xx-large;
+    color: green;
+
+}
+#man6 {
+    font-size: xx-large;
+    color: blue;
+
+}
+#man7 {
+    font-size: xx-large;
+    color: black;
+
+}
+#man9 {
+    font-size: xx-large;
+    color: black;
+
+}
+.man{
+    border-style: none;
+    border-collapse: collapse;
+    display: inline-block;
+    vertical-align: top;
+    font-variant-position: normal;
+}
+#gameOver{
+    font-size: xx-large;
+    color: crimson;
+    border-radius: 300px;
+}
+#winner {
+    content: "WINNER";
+    font-size: xx-large;
+    color: crimson;
+    box-decoration-break: initial;
+}
+
